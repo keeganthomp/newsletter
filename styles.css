@@ -1,0 +1,360 @@
+body {
+    color: #131511;
+    background: #F2F1E8;
+    margin: auto;
+}
+
+#main-nav {
+    background: white;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 0;
+    color: #2B2F26;
+    text-decoration: underline;
+}
+
+
+
+#main-nav li a {
+    color: #2B2F26;
+    text-decoration: underline;
+}
+
+#main-nav li a:hover {
+    color: #CD5D67;
+    transition: all 2s;
+}
+
+#main-nav li a:active {
+    color: #968772;
+}
+
+#main-nav li {
+    margin: 2%;
+    font-size: 1em;
+}
+
+li {
+    list-style: none;
+}
+
+.logo {
+    position: fixed;
+    width: 50px;
+    z-index: 1;
+    top: 16px;
+}
+
+.header-content {
+    padding: 5% 0 0 0;
+    text-align: center;
+}
+
+.main-head {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.sub-head {
+    font-family: 'Merriweather';
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.main-content {
+    background: #F2F1E8;
+    padding: 0 2% 0 2%;
+}
+
+.product-main {
+    display: flex;
+    justify-content: space-around;
+    height: 30em;
+}
+
+.item {
+    /*width: 20%;*/
+    margin: 5px;
+}
+
+#item1 {
+    background-image: url('./images/product-1.jpg');
+    background-size: cover;
+    flex: 3;
+}
+
+#item2 {
+    background-image: url('./images/product-2.jpg');
+    background-size: cover;
+    flex: 1;
+}
+
+#item3 {
+    background-image: url('./images/product-3.jpg');
+    background-size: cover;
+    flex: 1;
+}
+
+.product-main-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: flex-end;
+    height: 250px;
+}
+
+#item4 {
+    background-image: url('./images/product-4.jpg');
+    background-size: cover;
+    flex: 1;
+}
+
+#item5 {
+    background-image: url('./images/product-5.jpg');
+    background-size: cover;
+    flex: 1;
+}
+
+#item6 {
+    background-image: url('./images/product-6.jpg');
+    background-size: cover;
+    flex: 2;
+}
+
+#item7 {
+    background-image: url('./images/product-7.jpg');
+    background-size: cover;
+    flex: 1;
+}
+
+.item-name {
+    color: #F2F1E8;
+    position: relative;
+    top: 400px;
+    background: #968772;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.item-name2 {
+    color: #F2F1E8;
+    position: relative;
+    top: 170px;
+    background: #968772;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+}
+
+.item-name:hover {
+    color: #C0C7B9;
+    background: #967343;
+    cursor: pointer;
+    transition: all 2s;
+}
+
+.item-name2:hover {
+    color: #C0C7B9;
+    background: #CD5D67;
+    cursor: pointer;
+    transition: all 2s;
+    
+}
+
+footer, .footer {
+    background: #2b2f26;
+    text-align: left;
+    color: white;
+    padding: 2% 0 2% 1%;
+}
+
+.header {
+    padding: 10% 12% 3% 12%;
+    font-weight: 400;
+    font-family: 'Merriweather';
+    display: inline-block;
+    font-size: 12px;
+}
+
+.main-heading {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.intro-img {
+    width: 17%;
+    display: inline-block;
+    float: left;
+    padding-right: 8px;
+    padding-bottom: 3px;
+}
+
+#facilities {
+    display: inline-block;
+    padding: 5% 12% 0% 12%;
+}
+
+.body-img {
+    width: 100%;
+    /*float: right;*/
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+}
+
+.history-section {
+    padding-bottom: 2%;
+}
+
+.quote {
+    margin: 7% 0 0 5%;
+    border-left: 1px solid gray;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.sub-heading {
+    font-size: 30px;
+    font-family: 'Merriweather';
+    font-weight: 300;
+}
+
+.plant-img {
+    background: url('./images/background-3.jpg')no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 12% 0 12% 0;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.history {
+    padding: 0 12% 0 12%;
+}
+
+.text-content {
+    line-height: 30px;
+}
+
+.facility-content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.side-img {
+    flex: 2;
+    padding-left: 10px;
+}
+
+.img-desc {
+    width: 170px;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.monthly-plans {
+    padding: 5% 12% 0% 12%;
+}
+
+.table-head {
+    font-size: 30px;
+    font-family: 'Merriweather';
+    font-weight: 300;
+}
+
+.table {
+    padding-bottom: 3%;
+}
+
+table {
+    width: 68%;
+}
+
+td {
+    padding: 15px 15px 15px 15px;
+}
+
+tr:nth-child(even) {
+    background-color: #F2EADD;
+}
+
+tr:nth-child(1) {
+    text-align: center;
+}
+
+body.newsletter-page {
+    background: url(./images/background-2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.newsletter {
+    width: 45%;
+    min-height: 25%;
+    background: white;
+    position: absolute;
+    top: 38%;
+    left: 28%;
+}
+
+.newsletter-header {
+    font-size: 1.5em;
+    font-family: 'Merriweather';
+    font-weight: 300;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.newsletter-sub {
+    font-size: 1em;
+    font-family: 'Merriweather';
+    font-weight: 700;
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 10px 0 10px 0;
+    border: 0;
+    border-bottom: 1px solid #968772;
+    outline: none;
+    -webkit-appearance: none;
+    margin: 0 auto;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.sbmt-btn {
+    width: 100px;
+    background: #968772;
+    color: white;
+    padding: 15px 0 15px 0;
+}
+
+a.active {
+    color: #968772;
+}
+
+a.bold {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}

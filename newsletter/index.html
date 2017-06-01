@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bent Creek Ceramics - Newsletter</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,300i,400,400i,700|Roboto:300,300i,400,400i" rel="stylesheet">
+    <link rel="shortcut icon" href="https://s-media-cache-ak0.pinimg.com/736x/d8/69/ea/d869eadddb02b68745927aeb41cb0abc.jpg"
+        type="image/x-icon">
+</head>
+
+<script type="text/javascript">
+    var nameInput = document.getElementById('nameInput');
+    var emailInput = document.getElementById('emailInput');
+    var signupButton = document.getElementById('signupButton');
+    signupButton.addEventListener('click', function (e) {
+        var nameVal = nameInput.value;
+        var emailVal = emailInput.value;
+        if (nameVal && emailVal) {
+            alert('Thanks for signing up, ' + nameVal + '. Newsletters will be sent to ' + emailVal);
+            nameInput.value = "";
+            emailInput.value = "";
+        } else {
+            alert('We would love for you to sign up, please provide both your name and email address.');
+        }
+    });
+
+</script>
+
+<body class="newsletter-page">
+
+    <img class="logo" src="../images/bent-creek-logo.png" alt="Bent Creek Logo">
+    <nav id="main-nav">
+        <li><a href="../index.html">HOME</a></li>
+        <li><a href="../about/index.html">ABOUT</a></li>
+        <li><a class="active" href="index.html">NEWSLETTER</a></li>
+    </nav>
+
+    <div class="newsletter">
+        <h1 class="newsletter-header">Sign Up For Our Weekly Newsletter</h1>
+        <h2 class="newsletter-sub"> Stay up to date with events, activities, news and specials.</h2>
+        <form>
+            <input id="nameInput" type="text" placeholder="Name">
+            <input id="emailInput" type="email" placeholder="Email">
+            <input id="signupButton" class="sbmt-btn" type="submit" value="Submit">
+        </form>
+
+
+    </div>
+
+
+</body>
+
+</html>
